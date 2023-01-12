@@ -9,7 +9,7 @@ const Login = () => {
   const { state } = useLocation();
 
   const email = "eve.holt@reqres.in";
-  const password = "cityslicka";
+  const password = "citysilicka";
 
   const handleSubmit = (e) => {
     e.preventDefault();
