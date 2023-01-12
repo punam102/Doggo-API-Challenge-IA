@@ -19,8 +19,8 @@ function Registration() {
       setFlag(true);
     } else {
       setFlag(false);
-      localStorage.setItem("sanskarEmail", JSON.stringify(email));
-      localStorage.setItem("sanskarPassword", JSON.stringify(password));
+      localStorage.setItem("punamsEmail", JSON.stringify(email));
+      localStorage.setItem("punamsPassword", JSON.stringify(password));
       console.log("Saved in Local Storage");
 
       setLogin(!login);
