@@ -1,11 +1,14 @@
+import AllRoutes from "./Pages/AllRoutes";
+import Navbar from "./components/Navbar";
 
-import './App.css';
-import Dogs from './component/Dogs';
+
 
 function App() {
   return (
-    <div className="App">
-      <Dogs/>
+    <div data-cy="dog-app">
+     <Navbar/>
+     {/* <AllRoutes/> */}
+     <AllRoutes/>
     </div>
   );
 }
